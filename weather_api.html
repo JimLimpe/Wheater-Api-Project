@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html lang = "en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="weather_api.css" >
+<head>
+<title>Weather Api Project</title>
+</head>
+
+<body>
+<h1>Weather Api Project</h1>
+<main>
+<div class="search_container">
+<h4><label>Enter City Name </label></h4>
+<input type="text" class="input" id="input" placeholder="e.g. Athens"></input>
+<br><br>
+<button type="submit"  id="search_btn" class="button">Search</button>
+<br><br>
+</div>
+
+<div class="result_container">
+<table class="table">
+<tr>
+<th>City Name</th>
+<td id="cityName"></td>
+</tr>
+<tr>
+<th>Country</th>
+<td id="country"></td>
+</tr>
+<tr>
+<th>Temperature</th>
+<td id="temp"></td>
+</tr>
+<tr>
+<th>Main Weather</th>
+<td id="main"></td>
+</tr>
+<tr>
+<th>Feels like</th>
+<td id="feels_like"></td>
+</tr>
+<tr>
+<th>Humidity</th>
+<td id="humidity"></td>
+</tr>
+
+</table>
+</div>
+</main>
+
+<p><i>Thank you very much for visiting</i></p>
+<a href="https://www.linkedin.com/in/dimitris-lymperis-web-developer/" target="_blank">
+<img id="LinkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"></a>
+
+<script src="weather_api.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+font-family: Georgia, serif;
+background : radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+text-align: center;
+padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+main {
+	
+	margin: auto;
+	width : 50%;	
+	padding:20px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	background : #f7f2f8 ;
+	justify-content: center;
+}
+.result_container {
+
+	background : #f7f2f8 ;
+	width: 40%;
+	justify-content: center;
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	padding:10px;
+}
+
+.input{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	padding:10px;
+}
+
+
+
+/* CSS from https://getcssscan.com/css-buttons-examples */
+
+.button {
+  background-color: #0095ff;
+  border-radius: 8px;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Georgia, serif;;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+table {
+	text-align: left;
+	justify-content: center;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+#LinkedIn {
+	width : 60px;
+	height: 60px;
+	justify-content: center;
+	border-radius: 10px;
+	padding : 10px;
+}
